@@ -3,7 +3,7 @@ import React from 'react'
 import { ArrowRightIcon } from 'react-native-heroicons/outline'
 import RestaurantCards from './RestaurantCards'
 
-export default function FeaturedRow({ title, description, featuredCategory  }) {
+export default function FeaturedRow({ title, description }) {
   return (
     <View>
       
@@ -35,7 +35,7 @@ export default function FeaturedRow({ title, description, featuredCategory  }) {
                 lat={0}
             
             />
-                        <RestaurantCards 
+            <RestaurantCards 
                 id={123}
                 imgUrl="https://links.papareact.com/gn7"
                 title="Yo! Sushi"
@@ -48,7 +48,7 @@ export default function FeaturedRow({ title, description, featuredCategory  }) {
                 lat={0}
             
             />
-                        <RestaurantCards 
+            <RestaurantCards 
                 id={123}
                 imgUrl="https://links.papareact.com/gn7"
                 title="Yo! Sushi"
