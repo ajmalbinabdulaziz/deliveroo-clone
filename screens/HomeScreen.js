@@ -34,7 +34,6 @@ const HomeScreen = () => {
     })
   }, [])
   
-  console.log(featuredCategories)
 
   return (
     <SafeAreaView className='bg-white pt-5'>
@@ -94,7 +93,6 @@ const HomeScreen = () => {
               description={category.short_description}
             />
           ))}
-
 
         </ScrollView>
 
